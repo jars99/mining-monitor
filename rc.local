@@ -1,0 +1,3 @@
+sleep 30s
+/home/jars99/miner/startMining 2>&1 >> /var/log/startMining
+exit 0

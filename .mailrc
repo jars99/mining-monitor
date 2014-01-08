@@ -1,0 +1,8 @@
+set smtp-use-starttls
+set nss-config-dir=/home/<user>/.mozilla/firefox/<Firefox Profile>/
+set ssl-verify=ignore
+set smtp=smtp://smtp.gmail.com:587
+set smtp-auth=login
+set smtp-auth-user=<Email Address>
+set smtp-auth-password=<Email Password>
+set from="<Email Address>(<My Name>)"

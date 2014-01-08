@@ -1,0 +1,3 @@
+#!/bin/bash
+date >> /var/log/startMining
+sudo -u jars99 -i /home/jars99/mine/miner.sh 2>&1 >> /var/log/startMining
